@@ -6,7 +6,7 @@ print(type(a))
 print(type(b))
 print(type(c))'''
 
-a = "Atharva University Mumbai"
+'''a = "Atharva University Mumbai"
 print (a)
 print(type(a))
 
@@ -29,6 +29,18 @@ print(type(d))
 
 e= {1: 'DS', 2: 'CS', 3: 'IT'}
 print (e)
-print(type(e))
+print(type(e))'''
+
+#Implicit Type Conversion
+'''a = int(input("Enter your Number"))
+b = float(input("Enter your Number"))
+print (a + b)'''
+
+#Explicit Type Conversion 
+print(float(10))
+print(str(15))
+print(tuple("ABCDEF"))
+print(int(2.9))
+
 
 
